@@ -2,7 +2,7 @@ import css from './MoviesPage.module.css';
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { fetchMoviesByQuery } from '../../tmdb-api';
-import MovieList from '../../components/MovieList/Movielist';
+import MovieList from '../../components/MovieList/MovieList';
 
 export default function MoviesPage() {
     const [query, setQuery] = useState("");
