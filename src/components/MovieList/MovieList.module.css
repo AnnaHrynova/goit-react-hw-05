@@ -1,0 +1,29 @@
+.movieItem {
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease; 
+    cursor: pointer;
+  }
+  
+  .movieItem:hover {
+    background-color: #e0e0e0; 
+    color: #d400ff;
+  }
+
+  .movieLink {
+    color: #000000;
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+  }
+  
+  .movieLink:hover {
+    color: #d400ff;
+  }
+  
+  .movieLink:active {
+    color: #d400ff;
+  }

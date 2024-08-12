@@ -1,0 +1,27 @@
+.castList {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+  
+  .castListItem {
+    width: calc((100% - 40px) / 6);
+  }
+
+  .castImg {
+    max-width: 160px;
+  }
+
+  .actorWrap {
+    max-width: 160px;
+  }
+
+  .actor{
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+    color: #666; 
+  }

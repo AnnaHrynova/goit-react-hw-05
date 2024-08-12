@@ -1,0 +1,155 @@
+.wrapper {
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+  }
+  
+  .backBtn {
+    background-color: #eaeaea;
+    border: 1px solid #ddd;
+    margin: 15px 0 0 15px;
+    padding: 6px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease; 
+  }
+  
+  .backBtn:hover {
+    background-color: #d8d8d8;
+  }
+  
+  .backLink {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 590;
+    transition: color 0.3s ease, background-color 0.3s ease; 
+  }
+  
+  .backBtn:hover .backLink {
+    color: #d400ff; 
+  }
+  
+  .backLink:active {
+    color: #d400ff;
+  }
+  
+  .imageWrapper {
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+  }
+  
+  .image {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+  }
+  
+  .optionsWrapper {
+    margin: 0;
+    padding: 5px 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  
+  .optionsText {
+    margin: 0;
+  }
+  
+  .optionsList {
+    margin: 0;
+    padding-left: 25px;
+  }
+  
+  .optionsLink:hover {
+    color: #d400ff;
+  }
+
+ .detailsWrapper {
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 600px;
+  }
+  
+  .movieTitle {
+    font-size: 2.4rem; 
+    font-weight: bold; 
+    margin-bottom: 15px; 
+    color: #333; 
+  }
+  
+  .header {
+    font-size: 1.8rem; 
+    font-weight: bold; 
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+    color: #555; 
+    text-transform: uppercase; 
+  }
+  
+  .about {
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+    color: #666; 
+  }
+  
+  .detailsWrapper p {
+    color: #666; 
+  }
+  
+  .detailsWrapper p:nth-child(2) {
+    font-weight: bold; 
+    color: #000; 
+  }
+  
+  .optionsWrapper {
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .optionsText {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: left;
+  }
+  
+  .optionsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  
+  .optionsLink {
+    display: flex;
+    padding: 10px;
+    font-size: 1.2rem;
+    max-width: 80px;
+    justify-content: center;
+    color: #555;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .optionsLink:hover {
+    background-color: #e0e0e0;
+    color: #d400ff;
+  }
+  
+  .optionsLink:active {
+    background-color: #d0d0d0;
+    color: #d400ff;
+  }
+  
